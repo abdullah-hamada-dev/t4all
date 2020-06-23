@@ -1,0 +1,602 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:#9d9d9d;
+}
+a:visited{
+    text-transform: none;
+}
+
+
+.content{
+    padding-top: 5%;
+    min-height: 495px;
+}
+
+.logo {
+    color: white;
+    font-family: "American Typewriter", serif;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+
+
+}
+
+/* Index page style */
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    height: 580px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/header.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner_content​{
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    margin-top: 5% ;
+    margin-bottom: 12%;
+    max-width: 660px;
+    margin: 90px auto;    
+    font-weight: 900;
+    font-size: 10rem;
+    line-height: 1.1;
+    letter-spacing: .2em;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+.banner_content​{
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 1.1;
+    letter-spacing: .1em;
+}
+
+.banner_content​ .btn-style{
+    letter-spacing: .2em;
+    margin-top: -3%;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    border-style: outset;
+    border: black solid 2px;
+    opacity: 1;
+    color: cornsilk;
+}
+.banner_content​ .btn-style:hover {
+    color: #c96;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+#category-section{
+    margin-top: -2%;
+    margin-bottom: 5%;
+    color: black;
+    font-family: "Brush Script MT, Brush Script Std", cursive;
+    letter-spacing: normal;
+}
+#category-section h2{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#category-section p{
+    color: #c96;
+    font-size: 2em;
+    font-weight: bold;
+}
+ /* End of index style  */
+
+
+
+
+ /* Login Modal Style*/
+
+ .modal-header h4{
+     text-align: center;
+     font-family: 'Brush Script MT, Brush Script Std', cursive;
+     font-size: 50px;
+     font-weight: 200;
+     color: black;
+ }
+ 
+ .modal-header p{
+     text-align: center;
+     font-family: 'American Typewriter', serif;
+     font-style: italic;
+     font-size: 20px;
+     color: gray ;
+     letter-spacing: normal;
+ }
+ .modal-body{
+     align-items: center;
+ }
+ .modal-body button{
+     background-color: coral;
+     color: wheat;
+     align-content: center;
+ }
+ .modal-style{
+     padding-right: 25%;
+     font-size: 15px;
+     color: black;
+     padding-top: 2%;
+ }
+
+.modal-footer a:link {
+    text-decoration: none;
+    color:black;
+    font-size: 1em;
+  }
+
+   
+.modal-footer a:visited {
+    text-decoration: none;
+    color:coral;
+  }
+  
+  .modal-footer a:hover {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .modal-footer a:active {
+    text-decoration: none;
+    color:black;
+  }
+ /* Login Modal End */ 
+
+
+
+ /*About us style */
+ #about_image{
+    height: 420px;
+    padding-top: 50px; 
+    background: url(../img/about-header-bg.jpg);
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+ }
+ #about-banner{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    margin-top: 5% ;
+    margin-bottom: 12%;
+    margin: 90px auto;    
+    font-weight: 900;
+    font-size: 10rem;
+    line-height: 1.1;
+    letter-spacing: .2em;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: cornsilk;
+ }
+
+
+ #about-banner h5{
+    font-weight: 300;
+    font-size: .3em;
+    line-height: 1.1;
+    letter-spacing: .1em;
+ }
+
+ #side-img{
+    padding-left: 7%;
+    height: 600px;
+    padding-top: 50px; 
+    background: url(../img/img-1.jpg) no-repeat center center;
+    color: #fff;
+    margin: auto;
+    margin-top: 25px; 
+}
+#about-content{
+    margin-top: 2%;
+}
+#about-content .container{
+    border-bottom: 1px solid grey;
+
+}
+#about-content p{
+    padding-top: 35px;
+    font-size: 25px;
+}
+#about-content h1{
+    padding-top: 20px;
+}
+
+#team-section{
+    padding-top: 4%;
+}
+.team-content h2{
+    color: rgb(46, 45, 45);
+    text-align: center;
+    font-size:25px;
+}
+.team-content p{
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+ /* End of about us style */ 
+
+
+
+/*contact us style */ 
+
+
+#contact_image{
+    height: 420px;
+    padding-top: 50px; 
+    background: url(../img/contact-header.jpg);
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+ }
+ #contact-banner{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    margin-top: 5% ;
+    margin-bottom: 12%;
+    margin: 90px auto;    
+    font-weight: 900;
+    font-size: 10rem;
+    line-height: 1.1;
+    letter-spacing: .2em;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: cornsilk;
+ }
+
+#contact-banner h5{
+    font-size: 3rem;
+    letter-spacing: .2em;
+}
+
+#contact-content{
+    font-family: "Brush Script MT, Brush Script Std", cursive;
+    margin-top: 20px;
+    color: #222;
+    margin-bottom: 6%;
+
+}
+
+.information-part h1{
+    font-size: 3rem;
+}
+
+.information-part h4{
+    padding-top: 10%;
+    padding-left: 2%;
+}
+.information-part p{
+    padding-top: 3%;
+    padding-left: 5%;
+    color: #9d9d9d;
+}
+.icon-location{
+    color: coral !important;
+    display: block;
+    position: relative;
+    top: -49px;
+    left: 7px;
+}
+.icon-phone{
+    color: coral !important;
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 7px;
+}
+
+.icon-mail{
+    color: coral !important;
+    display: block;
+    position: relative;
+    top: -28px;
+    left: 7px;
+}
+
+.icon-time{
+    color: coral !important;
+    display: block;
+    position: relative;
+    top: -49px;
+    left: 7px;
+}
+
+.query-part h1{
+    font-size: 3rem;
+}
+ .query-part p{
+    padding-top: 10%;
+    padding-left: 2%; 
+    color: #9d9d9d;
+}
+
+.query-part form{
+    padding-top: 3%;
+}
+.form-fix{
+margin-top: 20px;
+}
+.query-part textarea{
+    margin-top: 18px;
+    margin-left: 18px;
+    height: 180px  !important;
+    max-width: 490px !important
+}
+.query-part button{
+    margin-top: 18px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: coral;
+    padding: 10px 15px;
+}
+/* contact us end */
+
+
+
+/* Sign up style */
+#signup-content{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#signup-img{
+    padding-left: 7%;
+    height: 520px;
+    width: 450px;
+    padding-top: 50px; 
+    background: url(../img/signup-img.jpg) no-repeat center center;
+    color: #fff;
+    margin: auto;
+    margin-top: 8%; 
+}
+#signup-content p{
+    padding-left: 5px;
+     font-family: 'American Typewriter', serif;
+     font-style: italic;
+     font-size: 15px;
+     color: gray ;
+}
+.signup-fix{
+    margin-top: 5%;
+}
+.signup-btn{
+    color: cornsilk;
+    background-color: coral;
+    height: 40px;
+    width: 100px;
+    font-size: 2rem;
+
+}
+
+/* Sign up style end  */
+
+
+
+
+
+
+/* Products page style  */
+
+#shop-img{
+    background: url(../img/shop-img.jpg);
+    color: #fff;
+    margin-top: 25px;
+    padding-right: 50%;
+    height: 250px;
+    
+}
+
+#shop-img h4{
+    padding-top: 18%;
+    padding-left: 80%;
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+#shop-img a{
+    position: relative;
+    padding-left: 77% ;
+    color: black;
+    font-size: 2rem;
+    top: 27px;
+}
+
+#shop-img p{
+    top: -10px;
+    padding-left: 88%;
+    color: coral;
+    font-size: 2rem;
+}
+
+.fix-content{
+    margin-top: 5%;
+    font-family: "Brush Script MT, Brush Script Std", cursive;
+    color: #222;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#female-section img{
+    height: 300px;
+    width: 250px;
+}
+.btn-product{
+    background-color: coral;
+    color: cornsilk;
+}
+#female-section a:hover{
+    color: cornsilk;
+}
+
+
+
+/* Products style end  */ 
+
+
+
+
+/*cart style start */
+
+#bill {
+    margin-top: 9%;
+    border: 1px outset  #e3dbdb ;
+}
+#bill h2{
+    text-align: center;
+    padding-bottom: 3%;
+    color: #333339;
+}
+#bill p{
+    margin-top: 8%;
+    padding-left: 8%;
+    color: grey;
+    font-size: 17px;
+}
+#bill .sum{
+    position: relative;
+    left: 70%;
+    top: -30px;
+    font-size: 17px;
+    color: black;
+}
+#bill .shipping{
+    margin-top: -15px;
+}
+#bill h4{
+    border-top: 1px solid gray;
+    border-top-width: 2px;
+    padding-top: 3%;
+}
+#cart a:link {
+    text-decoration: none;
+    color:coral;
+    font-size: 1em;
+  }
+#cart .gtotal{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+#cart .gtotal-p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:#333339;
+    
+}
+
+   
+#cart  a:visited {
+    text-decoration: none;
+    color:coral;
+  }
+  
+#cart a:hover {
+    text-decoration: none;
+    color:coral;
+  }
+  
+#cart a:active {
+    text-decoration: none;
+    color:coral;
+  }
+
+.btn-cart{
+    margin-top: 4%;
+    color: white  !important;
+    background-color: coral;
+    height: 45px;
+    font-size: 1.6em !important;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+/* cart style end */
+
+
+/*Footer Section */
+
+footer{
+    margin-top: 10px;
+    background-color: #222;
+    color:#fff;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+.footer-content{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color:#9d9d9d;
+
+}
+
+footer a:link {
+    text-decoration: none;
+    color:#fff;
+    font-size: 1em;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color:#fff;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color:#9d9d9d;
+  }
+  
+a:active {
+    text-decoration: none;
+    color:#fff;
+  }
+
+.footer-logo{
+    color: white;
+    font-family: "American Typewriter", serif;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-logo a:hover{
+    text-decoration: none;
+}
+
+/* End of footer style */
